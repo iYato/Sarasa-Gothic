@@ -4,10 +4,10 @@ set -x
 cd
 apt update
 apt install npm python3 python3-pip ttfautohint gcc -y
-pip3 install afdko &
+pip3 install afdko
 
 apt install git -y
-git clone https://github.com/iYato/Sarasa-Gothic.git &
+git clone https://github.com/iYato/Sarasa-Gothic.git
 
 cd /tmp
 wget https://github.com/premake/premake-core/releases/download/v5.0.0-alpha16/premake-5.0.0-alpha16-linux.tar.gz
