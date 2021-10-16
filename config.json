@@ -3,7 +3,7 @@
 	"familyOrder": ["gothic", "ui", "mono", "mono-slab", "term", "term-slab", "fixed", "fixed-slab"],
 	"families": {
 		"gothic": {
-			"isTNUM": true,
+			"isTNUM": false,
 			"isGothic": true,
 			"latinGroup": "Inter",
 			"naming": {
@@ -16,7 +16,7 @@
 			}
 		},
 		"ui": {
-			"isTNUM": true,
+			"isTNUM": false,
 			"isPWID": true,
 			"latinGroup": "Inter",
 			"naming": {
