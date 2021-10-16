@@ -3,10 +3,10 @@ set -x
 
 cd
 apt update
-apt install npm python3 python3-pip ttfautohint gcc
+apt install npm python3 python3-pip ttfautohint gcc -y
 pip3 install afdko &
 
-apt install git 
+apt install git -y
 git clone https://github.com/iYato/Sarasa-Gothic.git &
 
 cd /tmp
