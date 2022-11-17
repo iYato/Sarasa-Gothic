@@ -17,5 +17,9 @@ jobs:
         with:
           node-version: 16
       - run: sudo chmod +x ./build.sh && sudo ./build.sh
+      - uses: actions/upload-artifact@v3
+        with:
+          name: out
+          path: out/ttc/
 
  
