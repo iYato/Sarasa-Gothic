@@ -54,10 +54,7 @@ const Start = phony("all", async t => {
 });
 
 const Ttc = phony(`ttc`, async t => {
-	await t.need(TtfFontFiles`ttf`, TtfFontFiles`ttf-unhinted`);
-	// Do in serial -- otherwise, memory usage will be too high.
-	await t.need(TtcFontFiles`ttc`);
-	await t.need(TtcFontFiles`ttc-unhinted`);
+	await t.need(TtfFontFiles`ttf-unhinted`);
 });
 
 const Ttf = phony(`ttf`, async t => {
