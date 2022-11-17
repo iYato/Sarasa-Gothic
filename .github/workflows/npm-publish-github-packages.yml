@@ -16,6 +16,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: chmod +x ./build.sh && ./build.sh
+      - run: sudo chmod +x ./build.sh && sudo ./build.sh
 
  
