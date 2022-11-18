@@ -209,7 +209,7 @@ function flagsOfFamily(config, family) {
 		goth: config.families[family].isGothic || false,
 		mono: config.families[family].isMono || false,
 		pwid: config.families[family].isPWID || false,
-		tnum: config.families[family].isTNUM || false,
+		tnum: false,
 		term: config.families[family].isTerm || false
 	};
 }
